@@ -65,10 +65,6 @@ section {
   color: var(--orange);
 }
 
-
-
-
-
 /* NAVBAR ends */
 header {
   position: fixed;
@@ -248,14 +244,6 @@ header .search-bar-container label:hover {
 }
 /* NAVBAR ends */
 
-
-
-
-
-
-
-
-
 /* home starts */
 .home {
   min-height: 100vh;
@@ -320,15 +308,6 @@ header .search-bar-container label:hover {
 }
 /* home ends */
 
-
-
-
-
-
-
-
-
-
 /* booking starts */
 .book .row {
   display: flex;
@@ -371,15 +350,6 @@ header .search-bar-container label:hover {
   color: #666;
 }
 /* booking ends */
-
-
-
-
-
-
-
-
-
 
 /* packages starts */
 
@@ -439,20 +409,11 @@ header .search-bar-container label:hover {
 }
 /* packages ends */
 
-
-
-
-
-
-
-
-
-
 /* services starts */
 
 .services .box-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
   gap: 1.5rem;
 }
 
@@ -486,20 +447,10 @@ header .search-bar-container label:hover {
 
 /* services ends */
 
-
-
-
-
-
-
-
-
-
-
 /* gallery starts */
 .gallery .box-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
   gap: 1.5rem;
 }
 
@@ -547,17 +498,6 @@ header .search-bar-container label:hover {
 }
 /* gallery ends */
 
-
-
-
-
-
-
-
-
-
-
-
 /* review starts */
 
 .review .review-slider {
@@ -596,19 +536,6 @@ header .search-bar-container label:hover {
 }
 
 /* review ends */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* contact starts */
 
@@ -657,18 +584,6 @@ header .search-bar-container label:hover {
   width: 100%;
 }
 /* contact ends */
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Footer starts */
 .footer {
@@ -724,18 +639,6 @@ header .search-bar-container label:hover {
   color: var(--orange);
 }
 /* Footer ends */
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* media queries  */
 
