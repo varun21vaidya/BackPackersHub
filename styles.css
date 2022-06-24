@@ -275,6 +275,10 @@ header .search-bar-container label:hover {
   background: #ffa500;
   border: 0.2rem solid #ffa500;
 }
+.home .content .btn:hover {
+  background: rgba(106, 69, 0, 0.244);
+  color: white;
+}
 .home .video-container video {
   position: absolute;
   top: 0;
